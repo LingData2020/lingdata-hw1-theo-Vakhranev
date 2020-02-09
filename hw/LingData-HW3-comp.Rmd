@@ -24,8 +24,11 @@ hist(x, col="tomato", main="")
 ```
 
 a. What is the proportion of values in the sample that exceed $5$? Explain your answer.
+Число значений, которые превышают 5 равно ¼. Доля не превышающих значений состоит из 3 столбцов с показателями частоты 1, 10 и 4 (в сумме — 15), Доля значений выше 5 — из двух столбцов с показателями 4 и 1 (в сумме — 5). Общее число — 20. 5 из 20 — это ¼.
 b. Indicate the interval where the median of this sample can lie. Explain your answer.
+Медиана будет на промежутке от -5 до 0. Так как всего Х-ов — 20, нас интересует полусумма 10 и 11 при расположении от меньшего Х к большему. Оба они будут на этом промежутке.
 c. How the histogram will change if we add an element $7$ to the sample? Explain your answer.
+Четвёртый столбец, изображающий промежуток от 5 до 10 увеличится на одно деление и по оси «Частота» будет равен пяти (т.к. 7 входит в промежуток от 5 до 10).
 
 ### Problem 2
 
@@ -43,7 +46,7 @@ hist(sample2, col="lightgreen", xlim=c(100, 900))
 ```
 
 Which of the samples has a larger variance? Explain your answer.
-
+Во втором случае дисперсия будет выше, так как в первом случае график-купол, описывающий первую диаграмму, был бы более плавным, чем во втором случае, так как во втором случае разброс будет сильнее.
 \newpage
 
 b. Look at the histograms of two samples.
@@ -58,7 +61,7 @@ hist(sample2, col="lightgreen", xlim=c(5, 15))
 ```
 
 Which of the samples has a larger variance? Explain your answer.
-
+В первом случае дисперсия будет выше, так как здесь больше столбцов и выше разброс, поэтому график-купол, описывающий эту диаграмму, будет более резко подниматься и опускаться, чем во втором случае.
 ## Part 2
 
 *Do not use R (RStudio) to solve problems in Part 2. Answers for problem 3 will be evaluated. Please paste YES or NO into (empty) code blocks and explain you answer below the block.*
